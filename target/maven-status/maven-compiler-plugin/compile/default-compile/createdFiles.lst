@@ -1,0 +1,17 @@
+alexbolgov\elevator\domain\SimpleConsolePrintingFloorRemote.class
+alexbolgov\elevator\domain\SingleElevatorControlUnit.class
+alexbolgov\elevator\domain\ElevatorDirection.class
+alexbolgov\elevator\domain\ControlUnit.class
+alexbolgov\elevator\domain\Elevator.class
+alexbolgov\elevator\domain\ImmutableCabinRemoteData.class
+alexbolgov\elevator\domain\SimpleElevator.class
+alexbolgov\elevator\domain\FloorRemote$FloorRemoteData.class
+alexbolgov\elevator\ElevatorGameStarter.class
+alexbolgov\elevator\domain\ConsolePrintingCabinRemote.class
+alexbolgov\elevator\domain\CabinRemote$CabinRemoteData.class
+alexbolgov\elevator\domain\CabinRemote.class
+alexbolgov\elevator\domain\ImmutableFloorRemoteData.class
+alexbolgov\elevator\domain\FloorRemote.class
+alexbolgov\elevator\domain\DoorsState.class
+alexbolgov\elevator\domain\ElevatorActivity.class
+alexbolgov\elevator\ElevatorGameStarter$TimePrependingStream.class

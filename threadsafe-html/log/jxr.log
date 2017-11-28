@@ -1,0 +1,29 @@
+Scanning C:\Users\bolgo\IdeaProjects\elevator\src\main\java
+parsing... alexbolgov/elevator/domain/CabinRemote.java
+parsing... alexbolgov/elevator/domain/ConsolePrintingCabinRemote.java
+parsing... alexbolgov/elevator/domain/ControlUnit.java
+parsing... alexbolgov/elevator/domain/DoorsState.java
+parsing... alexbolgov/elevator/domain/Elevator.java
+parsing... alexbolgov/elevator/domain/ElevatorActivity.java
+parsing... alexbolgov/elevator/domain/ElevatorDirection.java
+parsing... alexbolgov/elevator/domain/FloorRemote.java
+parsing... alexbolgov/elevator/domain/ImmutableCabinRemoteData.java
+parsing... alexbolgov/elevator/domain/ImmutableFloorRemoteData.java
+parsing... alexbolgov/elevator/domain/SimpleConsolePrintingFloorRemote.java
+parsing... alexbolgov/elevator/domain/SimpleElevator.java
+parsing... alexbolgov/elevator/domain/SingleElevatorControlUnit.java
+parsing... alexbolgov/elevator/ElevatorGameStarter.java
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\CabinRemote.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\CabinRemote.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\ConsolePrintingCabinRemote.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\ConsolePrintingCabinRemote.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\ControlUnit.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\ControlUnit.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\DoorsState.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\DoorsState.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\Elevator.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\Elevator.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\ElevatorActivity.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\ElevatorActivity.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\ElevatorDirection.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\ElevatorDirection.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\FloorRemote.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\FloorRemote.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\ImmutableCabinRemoteData.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\ImmutableCabinRemoteData.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\ImmutableFloorRemoteData.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\ImmutableFloorRemoteData.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\SimpleConsolePrintingFloorRemote.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\SimpleConsolePrintingFloorRemote.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\SimpleElevator.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\SimpleElevator.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\domain\SingleElevatorControlUnit.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\domain\SingleElevatorControlUnit.html
+C:\Users\bolgo\IdeaProjects\elevator\src\main\java\alexbolgov\elevator\ElevatorGameStarter.java -> C:\Users\bolgo\IdeaProjects\elevator\threadsafe-html\jxr\alexbolgov\elevator\ElevatorGameStarter.html

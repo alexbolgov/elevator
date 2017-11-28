@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+    <head>
+        <link rel="shortcut icon" href="../../../../ico/contemplate.png"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <script type="text/javascript" src="../../../../lib/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="../../../../findings.js"></script>
+        <script type="text/javascript" src="../../../../lib/codeview.js"></script>
+        <link type="text/css" rel="stylesheet" href="../../../stylesheet.css"/>
+        <title>ImmutableCabinRemoteData xref</title>
+    </head>
+
+    <body>
+
+        <pre data-sourcefile="alexbolgov/elevator/domain/ImmutableCabinRemoteData.java"><div class="1"><a class="jxr_linenumber" name="1" href="#1">1</a>   <strong class="jxr_keyword">package</strong> alexbolgov.elevator.domain;</div>
+<div class="2"><a class="jxr_linenumber" name="2" href="#2">2</a>   </div>
+<div class="3"><a class="jxr_linenumber" name="3" href="#3">3</a>   <strong class="jxr_keyword">import</strong> java.util.Collections;</div>
+<div class="4"><a class="jxr_linenumber" name="4" href="#4">4</a>   <strong class="jxr_keyword">import</strong> java.util.HashSet;</div>
+<div class="5"><a class="jxr_linenumber" name="5" href="#5">5</a>   <strong class="jxr_keyword">import</strong> java.util.Objects;</div>
+<div class="6"><a class="jxr_linenumber" name="6" href="#6">6</a>   <strong class="jxr_keyword">import</strong> java.util.Set;</div>
+<div class="7"><a class="jxr_linenumber" name="7" href="#7">7</a>   </div>
+<div class="8"><a class="jxr_linenumber" name="8" href="#8">8</a>   <em class="jxr_javadoccomment">/**</em></div>
+<div class="9"><a class="jxr_linenumber" name="9" href="#9">9</a>   <em class="jxr_javadoccomment"> * @author Alexander Bolgov on 26.11.2017.</em></div>
+<div class="10"><a class="jxr_linenumber" name="10" href="#10">10</a>  <em class="jxr_javadoccomment"> */</em></div>
+<div class="11"><a class="jxr_linenumber" name="11" href="#11">11</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../alexbolgov/elevator/domain/ImmutableCabinRemoteData.html">ImmutableCabinRemoteData</a> <strong class="jxr_keyword">implements</strong> CabinRemote.CabinRemoteData {</div>
+<div class="12"><a class="jxr_linenumber" name="12" href="#12">12</a>  </div>
+<div class="13"><a class="jxr_linenumber" name="13" href="#13">13</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> floor;</div>
+<div class="14"><a class="jxr_linenumber" name="14" href="#14">14</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> Set&lt;Integer&gt; calledFloors;</div>
+<div class="15"><a class="jxr_linenumber" name="15" href="#15">15</a>      <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> <a href="../../../alexbolgov/elevator/domain/ElevatorDirection.html">ElevatorDirection</a> direction;</div>
+<div class="16"><a class="jxr_linenumber" name="16" href="#16">16</a>  </div>
+<div class="17"><a class="jxr_linenumber" name="17" href="#17">17</a>      <strong class="jxr_keyword">public</strong> <a href="../../../alexbolgov/elevator/domain/ImmutableCabinRemoteData.html">ImmutableCabinRemoteData</a>(<strong class="jxr_keyword">int</strong> floor, <strong class="jxr_keyword">final</strong> Set&lt;Integer&gt; calledFloors, <strong class="jxr_keyword">final</strong> <a href="../../../alexbolgov/elevator/domain/ElevatorDirection.html">ElevatorDirection</a> direction){</div>
+<div class="18"><a class="jxr_linenumber" name="18" href="#18">18</a>          Objects.requireNonNull(calledFloors);</div>
+<div class="19"><a class="jxr_linenumber" name="19" href="#19">19</a>          Objects.requireNonNull(direction);</div>
+<div class="20"><a class="jxr_linenumber" name="20" href="#20">20</a>          <strong class="jxr_keyword">this</strong>.floor = floor;</div>
+<div class="21"><a class="jxr_linenumber" name="21" href="#21">21</a>          <strong class="jxr_keyword">this</strong>.calledFloors = Collections.unmodifiableSet(<strong class="jxr_keyword">new</strong> HashSet&lt;&gt;(calledFloors));</div>
+<div class="22"><a class="jxr_linenumber" name="22" href="#22">22</a>          <strong class="jxr_keyword">this</strong>.direction = ElevatorDirection.valueOf(direction.toString());</div>
+<div class="23"><a class="jxr_linenumber" name="23" href="#23">23</a>      }</div>
+<div class="24"><a class="jxr_linenumber" name="24" href="#24">24</a>  </div>
+<div class="25"><a class="jxr_linenumber" name="25" href="#25">25</a>      @Override</div>
+<div class="26"><a class="jxr_linenumber" name="26" href="#26">26</a>      <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">int</strong> getFloor() {</div>
+<div class="27"><a class="jxr_linenumber" name="27" href="#27">27</a>          <strong class="jxr_keyword">return</strong> floor;</div>
+<div class="28"><a class="jxr_linenumber" name="28" href="#28">28</a>      }</div>
+<div class="29"><a class="jxr_linenumber" name="29" href="#29">29</a>  </div>
+<div class="30"><a class="jxr_linenumber" name="30" href="#30">30</a>      @Override</div>
+<div class="31"><a class="jxr_linenumber" name="31" href="#31">31</a>      <strong class="jxr_keyword">public</strong> Set&lt;Integer&gt; getCalledFloors() {</div>
+<div class="32"><a class="jxr_linenumber" name="32" href="#32">32</a>          <strong class="jxr_keyword">return</strong> calledFloors;</div>
+<div class="33"><a class="jxr_linenumber" name="33" href="#33">33</a>      }</div>
+<div class="34"><a class="jxr_linenumber" name="34" href="#34">34</a>  </div>
+<div class="35"><a class="jxr_linenumber" name="35" href="#35">35</a>      @Override</div>
+<div class="36"><a class="jxr_linenumber" name="36" href="#36">36</a>      <strong class="jxr_keyword">public</strong> <a href="../../../alexbolgov/elevator/domain/ElevatorDirection.html">ElevatorDirection</a> getDirection() {</div>
+<div class="37"><a class="jxr_linenumber" name="37" href="#37">37</a>          <strong class="jxr_keyword">return</strong> direction;</div>
+<div class="38"><a class="jxr_linenumber" name="38" href="#38">38</a>      }</div>
+<div class="39"><a class="jxr_linenumber" name="39" href="#39">39</a>  }</div>
+</pre>
+
+        
+
+    </body>
+
+</html>
+

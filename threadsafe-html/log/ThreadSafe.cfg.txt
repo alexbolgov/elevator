@@ -1,0 +1,7 @@
+run
+--sla-threshold=70
+--classpath=C:/Users/bolgo/IdeaProjects/elevator/target/classes
+--lib-classpath=C:/Users/bolgo/IdeaProjects/elevator/target/dependency
+--stub-classpath=C:/Users/bolgo/AppData/Local/Temp/threadsafe/com.contemplateltd.analyser.windows.x86_64/1.3.5.20161209-2156/jdk-stubs.jar
+--logfile=C:/Users/bolgo/IdeaProjects/elevator/threadsafe-html/log/ThreadSafe.log.txt
+--report-progress

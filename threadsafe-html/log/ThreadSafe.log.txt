@@ -1,0 +1,235 @@
+INFO: Analyser start at 2017-10-28 20:04:20 (UTC)
+INFO: Constructing classpaths for analysis
+INFO: Analysis classpath: [Directory "\\\\?\\C:\\Users\\bolgo\\IdeaProjects\\elevator\\target\\classes"]
+INFO: Library classpath: [Directory "\\\\?\\C:\\Users\\bolgo\\IdeaProjects\\elevator\\target\\dependency"; Jarfile "\\\\?\\C:\\Program Files\\Java\\jdk1.8.0_151\\jre\\lib\\rt.jar"]
+INFO: Stub classpath: [Jarfile "\\\\?\\C:\\Users\\bolgo\\AppData\\Local\\Temp\\threadsafe\\com.contemplateltd.analyser.windows.x86_64\\1.3.5.20161209-2156\\jdk-stubs.jar"]
+INFO: Classes to analyse: all
+INFO: Reading class "alexbolgov/elevator/domain/CabinRemote$CabinRemoteData"
+INFO: Class "alexbolgov/elevator/domain/CabinRemote$CabinRemoteData" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/CabinRemote"
+INFO: Class "alexbolgov/elevator/domain/CabinRemote" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/ConsolePrintingCabinRemote"
+INFO: Class "alexbolgov/elevator/domain/ConsolePrintingCabinRemote" discovered in analysis classpath; no matching stub class
+INFO: Reading class "java/lang/Object"
+INFO: Class "java/lang/Object" discovered in library classpath; replaced by stub class
+INFO: Reading class "alexbolgov/elevator/domain/ControlUnit"
+INFO: Class "alexbolgov/elevator/domain/ControlUnit" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/DoorsState"
+INFO: Class "alexbolgov/elevator/domain/DoorsState" discovered in analysis classpath; no matching stub class
+INFO: Reading class "java/lang/Enum"
+INFO: Class "java/lang/Enum" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/Comparable"
+INFO: Class "java/lang/Comparable" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/Serializable"
+INFO: Class "java/io/Serializable" discovered in library classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/Elevator"
+INFO: Class "alexbolgov/elevator/domain/Elevator" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/ElevatorActivity"
+INFO: Class "alexbolgov/elevator/domain/ElevatorActivity" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/ElevatorDirection"
+INFO: Class "alexbolgov/elevator/domain/ElevatorDirection" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/FloorRemote$FloorRemoteData"
+INFO: Class "alexbolgov/elevator/domain/FloorRemote$FloorRemoteData" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/FloorRemote"
+INFO: Class "alexbolgov/elevator/domain/FloorRemote" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/ImmutableCabinRemoteData"
+INFO: Class "alexbolgov/elevator/domain/ImmutableCabinRemoteData" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/ImmutableFloorRemoteData"
+INFO: Class "alexbolgov/elevator/domain/ImmutableFloorRemoteData" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/SimpleConsolePrintingFloorRemote"
+INFO: Class "alexbolgov/elevator/domain/SimpleConsolePrintingFloorRemote" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/SimpleElevator"
+INFO: Class "alexbolgov/elevator/domain/SimpleElevator" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/domain/SingleElevatorControlUnit"
+INFO: Class "alexbolgov/elevator/domain/SingleElevatorControlUnit" discovered in analysis classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/ElevatorGameStarter$TimePrependingStream"
+INFO: Class "alexbolgov/elevator/ElevatorGameStarter$TimePrependingStream" discovered in analysis classpath; no matching stub class
+INFO: Reading class "java/io/PrintStream"
+INFO: Class "java/io/PrintStream" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/FilterOutputStream"
+INFO: Class "java/io/FilterOutputStream" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/OutputStream"
+INFO: Class "java/io/OutputStream" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/Closeable"
+INFO: Class "java/io/Closeable" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/AutoCloseable"
+INFO: Class "java/lang/AutoCloseable" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/Flushable"
+INFO: Class "java/io/Flushable" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/Appendable"
+INFO: Class "java/lang/Appendable" discovered in library classpath; no matching stub class
+INFO: Reading class "alexbolgov/elevator/ElevatorGameStarter"
+INFO: Class "alexbolgov/elevator/ElevatorGameStarter" discovered in analysis classpath; no matching stub class
+INFO: Analysing package "alexbolgov.elevator.domain" at 2017-10-28 20:04:20 (UTC)
+INFO: Analysing class "alexbolgov/elevator/domain/CabinRemote$CabinRemoteData"
+INFO: Analysing class "alexbolgov/elevator/domain/CabinRemote"
+INFO: Analysing class "alexbolgov/elevator/domain/ConsolePrintingCabinRemote"
+INFO: Reading class "java/lang/System"
+INFO: Class "java/lang/System" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/StringBuilder"
+INFO: Class "java/lang/StringBuilder" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/AbstractStringBuilder"
+INFO: Class "java/lang/AbstractStringBuilder" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/Set"
+INFO: Class "java/util/Set" discovered in library classpath; replaced by stub class
+INFO: Analysing class "alexbolgov/elevator/domain/ControlUnit"
+INFO: Analysing class "alexbolgov/elevator/domain/DoorsState"
+INFO: Reading class "java/lang/Class"
+INFO: Class "java/lang/Class" discovered in library classpath; no matching stub class
+INFO: Analysing class "alexbolgov/elevator/domain/Elevator"
+INFO: Analysing class "alexbolgov/elevator/domain/ElevatorActivity"
+INFO: Analysing class "alexbolgov/elevator/domain/ElevatorDirection"
+INFO: Analysing class "alexbolgov/elevator/domain/FloorRemote$FloorRemoteData"
+INFO: Analysing class "alexbolgov/elevator/domain/FloorRemote"
+INFO: Analysing class "alexbolgov/elevator/domain/ImmutableCabinRemoteData"
+INFO: Reading class "java/util/Objects"
+INFO: Class "java/util/Objects" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/Collections"
+INFO: Class "java/util/Collections" discovered in library classpath; replaced by stub class
+INFO: Analysing class "alexbolgov/elevator/domain/ImmutableFloorRemoteData"
+INFO: Analysing class "alexbolgov/elevator/domain/SimpleConsolePrintingFloorRemote"
+INFO: Reading class "com/google/common/base/Preconditions"
+WARN: Class "com/google/common/base/Preconditions" not found
+INFO: Reading class "java/lang/Integer"
+INFO: Class "java/lang/Integer" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/Map"
+INFO: Class "java/util/Map" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/Boolean"
+INFO: Class "java/lang/Boolean" discovered in library classpath; replaced by stub class
+INFO: Analysing class "alexbolgov/elevator/domain/SimpleElevator"
+INFO: Reading class "java/util/concurrent/locks/Lock"
+INFO: Class "java/util/concurrent/locks/Lock" discovered in library classpath; combined with annotations from stub class
+INFO: Reading class "java/util/concurrent/ScheduledExecutorService"
+INFO: Class "java/util/concurrent/ScheduledExecutorService" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/ScheduledFuture"
+INFO: Class "java/util/concurrent/ScheduledFuture" discovered in library classpath; no matching stub class
+INFO: Analysing class "alexbolgov/elevator/domain/SingleElevatorControlUnit"
+INFO: Reading class "java/util/NavigableSet"
+INFO: Class "java/util/NavigableSet" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/locks/ReadWriteLock"
+INFO: Class "java/util/concurrent/locks/ReadWriteLock" discovered in library classpath; no matching stub class
+INFO: Reading class "com/google/common/collect/Sets"
+WARN: Class "com/google/common/collect/Sets" not found
+INFO: Reading class "java/util/Iterator"
+INFO: Class "java/util/Iterator" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/concurrent/ExecutorService"
+INFO: Class "java/util/concurrent/ExecutorService" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/concurrent/Executor"
+INFO: Class "java/util/concurrent/Executor" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/Collection"
+INFO: Class "java/util/Collection" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/String"
+INFO: Class "java/lang/String" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/CharSequence"
+INFO: Class "java/lang/CharSequence" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/reflect/GenericDeclaration"
+INFO: Class "java/lang/reflect/GenericDeclaration" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/reflect/AnnotatedElement"
+INFO: Class "java/lang/reflect/AnnotatedElement" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/reflect/Type"
+INFO: Class "java/lang/reflect/Type" discovered in library classpath; no matching stub class
+INFO: Running FieldClassifier at 2017-10-28 20:04:20 (UTC)
+INFO: Reading class "java/util/HashSet"
+INFO: Class "java/util/HashSet" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/AbstractSet"
+INFO: Class "java/util/AbstractSet" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/AbstractCollection"
+INFO: Class "java/util/AbstractCollection" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/concurrent/Delayed"
+INFO: Class "java/util/concurrent/Delayed" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/Future"
+INFO: Class "java/util/concurrent/Future" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/concurrent/locks/ReentrantLock"
+INFO: Class "java/util/concurrent/locks/ReentrantLock" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/ScheduledThreadPoolExecutor"
+INFO: Class "java/util/concurrent/ScheduledThreadPoolExecutor" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/ThreadPoolExecutor"
+INFO: Class "java/util/concurrent/ThreadPoolExecutor" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/concurrent/AbstractExecutorService"
+INFO: Class "java/util/concurrent/AbstractExecutorService" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/concurrent/ConcurrentSkipListSet"
+INFO: Class "java/util/concurrent/ConcurrentSkipListSet" discovered in library classpath; combined with annotations from stub class
+INFO: Reading class "java/util/SortedSet"
+INFO: Class "java/util/SortedSet" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/lang/Cloneable"
+INFO: Class "java/lang/Cloneable" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/locks/ReentrantReadWriteLock"
+INFO: Class "java/util/concurrent/locks/ReentrantReadWriteLock" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/concurrent/TimeUnit"
+INFO: Class "java/util/concurrent/TimeUnit" discovered in library classpath; replaced by stub class
+INFO: Running ThreadStructure at 2017-10-28 20:04:20 (UTC)
+INFO: Running FieldAccesses.Fields at 2017-10-28 20:04:20 (UTC)
+INFO: Running FieldAccesses.Arrays at 2017-10-28 20:04:20 (UTC)
+INFO: Running FieldAccesses.Collections at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_ReusableObjectSync at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnsafeIteration at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_TryLock at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_GetCheckPut at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnsafeContent at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnreleasedLocks at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_Deadlock at 2017-10-28 20:04:20 (UTC)
+INFO: Reading class "java/util/HashMap"
+INFO: Class "java/util/HashMap" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/TreeSet"
+INFO: Class "java/util/TreeSet" discovered in library classpath; replaced by stub class
+INFO: Analysing package "alexbolgov.elevator" at 2017-10-28 20:04:20 (UTC)
+INFO: Analysing class "alexbolgov/elevator/ElevatorGameStarter$TimePrependingStream"
+INFO: Reading class "java/time/LocalTime"
+INFO: Class "java/time/LocalTime" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/BufferedWriter"
+INFO: Class "java/io/BufferedWriter" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/Thread"
+INFO: Class "java/lang/Thread" discovered in library classpath; replaced by stub class
+INFO: Reading class "java/util/Formatter"
+INFO: Class "java/util/Formatter" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/Locale"
+INFO: Class "java/util/Locale" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/Locale$LocaleNameGetter"
+INFO: Class "java/util/Locale$LocaleNameGetter" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/OutputStreamWriter"
+INFO: Class "java/io/OutputStreamWriter" discovered in library classpath; no matching stub class
+INFO: Reading class "java/nio/charset/Charset"
+INFO: Class "java/nio/charset/Charset" discovered in library classpath; no matching stub class
+INFO: Reading class "java/io/Writer"
+INFO: Class "java/io/Writer" discovered in library classpath; no matching stub class
+INFO: Analysing class "alexbolgov/elevator/ElevatorGameStarter"
+INFO: Reading class "java/util/Scanner"
+INFO: Class "java/util/Scanner" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/regex/Pattern"
+INFO: Class "java/util/regex/Pattern" discovered in library classpath; no matching stub class
+INFO: Reading class "java/util/regex/Matcher"
+INFO: Class "java/util/regex/Matcher" discovered in library classpath; no matching stub class
+INFO: Running FieldClassifier at 2017-10-28 20:04:20 (UTC)
+INFO: Running ThreadStructure at 2017-10-28 20:04:20 (UTC)
+INFO: Running FieldAccesses.Fields at 2017-10-28 20:04:20 (UTC)
+INFO: Running FieldAccesses.Arrays at 2017-10-28 20:04:20 (UTC)
+INFO: Running FieldAccesses.Collections at 2017-10-28 20:04:20 (UTC)
+INFO: Reading class "java/util/regex/MatchResult"
+INFO: Class "java/util/regex/MatchResult" discovered in library classpath; no matching stub class
+INFO: Reading class "java/lang/Runnable"
+INFO: Class "java/lang/Runnable" discovered in library classpath; replaced by stub class
+INFO: Running Checker_ReusableObjectSync at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnsafeIteration at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_TryLock at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_GetCheckPut at 2017-10-28 20:04:20 (UTC)
+INFO: Reading class "java/util/AbstractMap"
+INFO: Class "java/util/AbstractMap" discovered in library classpath; replaced by stub class
+INFO: Running Checker_UnsafeContent at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnreleasedLocks at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_Deadlock at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_ConsistentlyGuarded at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_InconsistentSync (fields) at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_InconsistentSync (arrays) at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_InconsistentSync (collections) at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnsafeRemoval at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_LockedBlocking at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_FieldLockOverwritten at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_UnsafeReplacement at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_ReadOnlyVolatile at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_BadCatches at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_GuardedBy at 2017-10-28 20:04:20 (UTC)
+INFO: Running Checker_Deadlock at 2017-10-28 20:04:20 (UTC)
+INFO: 1 findings discovered in this run
+INFO: Analyser finish at 2017-10-28 20:04:20 (UTC)
+INFO: Max heap size (bytes) 317440
+INFO: Exit code: 0

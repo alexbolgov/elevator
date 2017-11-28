@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<findings>
+  <finding type="CCE_CC_GUARD_USAGE">
+    <locations>
+      <field className="alexbolgov.elevator.domain.SingleElevatorControlUnit" name="elevatorStops" type="Ljava/util/NavigableSet;" key="0" filename="SingleElevatorControlUnit.java" line="29"/>
+      <instruction className="alexbolgov.elevator.domain.SingleElevatorControlUnit" method="needAddStop" offset="36" desc="(I)Z" key="1" label="relevant_sync_read" filename="SingleElevatorControlUnit.java" line="96"/>
+      <instruction className="alexbolgov.elevator.domain.SingleElevatorControlUnit" method="goTo" offset="22" desc="(II)V" key="2" label="relevant_sync_write" filename="SingleElevatorControlUnit.java" line="81"/>
+      <instruction className="alexbolgov.elevator.domain.SingleElevatorControlUnit" method="makeStopIfNeeded" offset="5" desc="()V" key="3" label="relevant_sync_write" filename="SingleElevatorControlUnit.java" line="120"/>
+      <field className="alexbolgov.elevator.domain.SingleElevatorControlUnit" name="lock" type="Ljava/util/concurrent/locks/ReadWriteLock;" key="4" label="guard_field" filename="SingleElevatorControlUnit.java" line="39"/>
+      <class name="alexbolgov.elevator.domain.SingleElevatorControlUnit" key="5" label="guard_type" filename="SingleElevatorControlUnit.java"/>
+    </locations>
+    <info>
+      <message value="All accesses to threadsafe collection in field 'elevatorStops' are guarded.">
+        <location key="0" message="Problem location"/>
+        <location key="1" message="Synchronized read"/>
+        <location key="2" message="Synchronized write"/>
+        <location key="3" message="Synchronized write"/>
+        <location key="4"/>
+        <location key="5"/>
+      </message>
+      <guards>
+        <guardRelative typeRef="5" key="0" intrinsic="false">
+          <guardPath>
+            <locationRef key="4"/>
+          </guardPath>
+          <targetPath/>
+        </guardRelative>
+      </guards>
+      <accesses>
+        <access location="1" type="relevant_sync_read">
+          <accessGuards>
+            <guardRef key="0" status="always"/>
+          </accessGuards>
+        </access>
+        <access location="2" type="relevant_sync_write">
+          <accessGuards>
+            <guardRef key="0" status="always"/>
+          </accessGuards>
+        </access>
+        <access location="3" type="relevant_sync_write">
+          <accessGuards>
+            <guardRef key="0" status="always"/>
+          </accessGuards>
+        </access>
+      </accesses>
+    </info>
+  </finding>
+</findings>
