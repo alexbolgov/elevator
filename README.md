@@ -11,5 +11,6 @@ You can interact with the game using console input:
 
 **f#** to call elevator from the floor
   (e.g. **f6** will call elevator to **6th** floor)
+  
 **e#** to ask elevator to go to floor from the cabin 
   (e.g. **e5** will force elevator to go to **5th** floor)
